@@ -1,43 +1,34 @@
-# Dependency and Build Artifacts
+# Node.js & TypeScript
+# Dependency directories
 node_modules/
+
+# Build output
 dist/
-build/
-.turbo/
-.next/
-coverage/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+logs
 *.log
-*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# TypeScript / JavaScript Specific
-.tsbuildinfo
-/coverage
-/dist
-/out
-
-# Editor/IDE Configuration
-.vscode/
-.idea/
-*.swp
-
-# Node/NPM Specific
-/npm-debug.log*
-/yarn-error.log*
-
-# OS generated files
+# OS files
 .DS_Store
 Thumbs.db
 
-# Configuration/Secrets
-.env
-.env.local
+# IDE & editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
 
-# Static site specific (If SSG output is generated)
-/public
-/out
+# Test coverage
+coverage/
+.nyc_output/
 
-# ContentFlow Specific Artifacts (Assuming a TypeScript/Node backend for the orchestration)
-/data/cache
-/publish_logs
-
-# Build caches
-.cache/
+# Biome cache
+.biome/
